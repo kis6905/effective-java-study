@@ -11,7 +11,7 @@ public class Item37 {
 		EnumSet.of(LifeCycle.ANNUAL);
 		EnumSet.of(LifeCycle.ANNUAL, LifeCycle.PERENNIAL);
 		
-		// enum ÀÇ °³¼ö¸¸Å­ size¸¦ ÀâÀ½
+		// EnumMap ì€ enumì˜ ê°œìˆ˜ ë§Œí¼ sizeë¡œ ì´ˆê¸°í™”
 		Map<LifeCycle, Set<Plant>> map = new EnumMap<>(LifeCycle.class);
 		
 		map.put(LifeCycle.ANNUAL, Set.of(new Plant("test", LifeCycle.ANNUAL)));

@@ -1,3 +1,2 @@
-# Effective Java ½ºÅÍµğ
+# Effective Java ìŠ¤í„°ë””
 
-### ½Ç½À ÇÊ¿äÇÑ Item¸¸ Á¤¸®

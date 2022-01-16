@@ -12,11 +12,11 @@ public class Item26 {
 		
 		Set<?> set = new HashSet<>();
 		set.add(null);
-//		set.add("1"); // null ¸»°ï ³ÖÀ»¼ö ¾ø´Ù.
+//		set.add("1"); // null ë§ê³¤ ë„£ì„ìˆ˜ ì—†ë‹¤.
 		
 		
 		test(new HashSet<Object>());
-//		test(new HashSet<String>()); // ÀÌ°Ç ºÒ°¡´É
+//		test(new HashSet<String>()); // ì´ê±´ ë¶ˆê°€ëŠ¥
 	}
 	
 	public static int test(Set<Object> s) {

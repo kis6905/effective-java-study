@@ -41,41 +41,41 @@ public class Item31 {
 		result.addAll(s2);
 		return result;
 	}
-
-}
-
-class Person {
-	private String name;
-
-	public Person(String name) {
-		super();
-		this.name = name;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
 	
-}
+	static class Person {
+		private String name;
 
-class Developer extends Person {
-	private String skill;
-	
-	public Developer(String name, String skill) {
-		super(name);
-		this.skill = skill;
+		public Person(String name) {
+			super();
+			this.name = name;
+		}
+
+		public String getName() {
+			return name;
+		}
+
+		public void setName(String name) {
+			this.name = name;
+		}
+		
 	}
 
-	public String getSkill() {
-		return skill;
-	}
+	static class Developer extends Person {
+		private String skill;
+		
+		public Developer(String name, String skill) {
+			super(name);
+			this.skill = skill;
+		}
 
-	public void setSkill(String skill) {
-		this.skill = skill;
+		public String getSkill() {
+			return skill;
+		}
+
+		public void setSkill(String skill) {
+			this.skill = skill;
+		}
+		
 	}
 	
 }
